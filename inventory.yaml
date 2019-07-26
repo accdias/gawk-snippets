@@ -1,0 +1,8 @@
+[masters]
+k8s-master-a.example.com ansible_ssh_host=10.15.90.2
+k8s-master-b.example.com ansible_ssh_host=10.15.90.3
+k8s-master-c.example.com ansible_ssh_host=10.15.90.4
+[etcd]
+k8s-etcd-a.example.com ansible_ssh_host=10.15.91.2
+k8s-etcd-b.example.com ansible_ssh_host=10.15.91.3
+k8s-etcd-c.example.com ansible_ssh_host=10.15.91.4
